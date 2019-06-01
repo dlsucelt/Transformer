@@ -4,7 +4,7 @@ Here's two demo notebooks on the now-mainstream **Transformer** architecture. We
 Aside from two demo notebooks, we provide an implementation of the Transformer architecture, standalone and ready for use.
 
 ## Requirements
-* PyTorch v.1.1.0 -- We need 1.1.0 as this incorporates ``nn.MultiheadAttention```. Otherwise, we'll have to write our own implementation of the self attention mechanism. I'll add in an implementation of it soon for backwards compatibility.
+* PyTorch v.1.1.0 -- We need 1.1.0 as this incorporates ```nn.MultiheadAttention```. Otherwise, we'll have to write our own implementation of the self attention mechanism. I'll add in an implementation of it soon for backwards compatibility.
 * A sizeable GPU -- We need a big enough GPU to train and finetune models. Transformers are *huge* and we need some space to accommodate a large enough batch size that won't hurt performance. We use an NVIDIA Tesla V100 with 16GB VRAM for testing the notebooks. Anything around the same amount of GPU memory will do.
 
 ## The Transformer Architecture
